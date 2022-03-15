@@ -18,4 +18,4 @@ The result of this plugin is a Bootstrap accordion that shows the title of the e
 [query_and_filter_post_categories query='category-slug' filters="catslug1,catslug2,catslug3"]]
 ```
 
-- Edit `category-slug` with a category and filters with a list of categories slugs like in the example.
+- Edit `category-slug` with a category slug and `filters` with a list of categories divided by commas.
