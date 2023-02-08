@@ -10,7 +10,7 @@ The result of this plugin is a Bootstrap accordion that shows the title of the e
 ## How to use
 
 - Add Bootstrap to the website using a third party plugin such as Header and Footer code.
-- Clone the repository and copy to the plugin folder of Wordpress the folder `query_and_filter_post_categories` without editing its name.
+- Clone the repository, copy the folder `query_and_filter_post_categories` into the plugin folder of Wordpress (do not edit the folder name!).
 - Activate it in the plugin manager of Wordpress. 
 - Insert the following shortcode
 
@@ -18,4 +18,4 @@ The result of this plugin is a Bootstrap accordion that shows the title of the e
 [query_and_filter_post_categories query='category-slug' filters="catslug1,catslug2,catslug3"]]
 ```
 
-- Edit `query` with a category slug and `filters` with a list of categories divided by commas.
+- Edit `query` with a category slug and `filters` with a list of categories separated by commas.
